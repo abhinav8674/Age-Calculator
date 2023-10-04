@@ -1,0 +1,91 @@
+body{
+    font-size: 20px;
+    padding: 0px;
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.enter{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    color: red;
+    background: white;
+    
+}
+.container{
+    height: auto;
+    width: 500px;
+    margin: 2px;
+    background-color:rgb(90, 190, 230) ;
+    border: 1px solid navy;
+    border-radius: 14px;
+    max-height: fit-content;
+
+}
+.base{
+    width: 100%;
+    margin: 0px;
+    background-color: aqua;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1;
+    word-spacing: 2px;
+    color: navy;
+    
+
+}
+.block{
+    display: inline-block;
+    max-width: fit-content;
+    align-items: center;
+    padding-left: 10px;
+    margin: 0px;
+    align-items: center;
+}
+
+
+#age{
+    background-color: rgb(228, 168, 223);
+    padding-left: 10px;
+    margin: 8px;
+    max-height: 100px;
+    font-size: larger;
+}
+
+.title{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(31, 122, 241);
+    color: white;
+    margin-bottom: 5px;
+    box-shadow: inset 5px 5px 5px rgb(31, 122, 241) ,
+    3px 3px 3px rgb(31, 122, 241);
+
+}
+
+.btn{
+   padding: 15px;
+
+}
+#btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: medium;
+    box-shadow: inset -2px -2px 5px ;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    
+}
+#btn:hover{
+    background-color: rgb(54, 53, 53);
+
+}
+
